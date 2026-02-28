@@ -18,7 +18,7 @@ int main() {
         if (a >= count)
 { a; }          
         else
-        printf("%s ", lines[(unsigned long long)a);
+        printf("%s ", lines[(unsigned long long)a]);
         fflush(stdout);
 
         }
@@ -27,4 +27,5 @@ int main() {
     
     return 0;
 }
+
 

@@ -1,10 +1,10 @@
-  GNU nano 7.2              rd.c                       
+  GNU nano 7.2              rd.c                         GNU nano 7.2                     rd.c                               
 #include <stdio.h>
 #include <immintrin.h>
 #include <unistd.h>
 #include "words.h"
 int main() {
-    // _rdrand32_step returns 1 on success, 0 on failu>
+    // _rdrand32_step returns 1 on success, 0 on failure
     unsigned short a;
     while(5) {
 
@@ -20,7 +20,7 @@ int main() {
         else
         printf("%s ", lines[(unsigned long long)a]);
         fflush(stdout);
-
+        usleep(500000); 
         }
 
    

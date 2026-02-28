@@ -20,7 +20,7 @@ int main() {
         else
         printf("%s ", lines[(unsigned long long)a]);
         fflush(stdout);
-        usleep(500000); 
+        usleep(50000); 
         }
 
    
